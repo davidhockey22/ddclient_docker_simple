@@ -5,4 +5,4 @@ ddclient:
 #   - CONFIG_PATH "/etc/ddclient"
 #   - CONFIG_FILE "ddclient.conf"
   volumes:
-    - ./config/:/etc/ddclient/
+    - ${PWD}/config/:/etc/ddclient/
